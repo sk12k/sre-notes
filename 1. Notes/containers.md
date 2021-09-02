@@ -65,10 +65,13 @@ docker pull nginx --> pull nginx image from Docker hub to you local Docker host
 docker ps (docker container ls) --> List all running containers
 docker ps -a (docker container ls -a) --> List all running/stopped containers
 docker run -it <imagename>
+    -i - interactive
+    -t - terminal/tty
+    -d - detached / daemonized
+    
+docker stop container_id
+docker start container_id
 
--i - interactive
--t - terminal/tty
--d - detached / daemonized
 
 
 

@@ -1,0 +1,27 @@
+
+
+Automated Deployment of War file to Tomcat Server
+
+Tools to be used : -
+Ansible
+Github
+Jenkins
+
+
+Prerequisites:-
+3 Servers - Jenkins Server, Ansible Master and Tomcat Server to be node
+2 repos - One repo to store playbook and other one for storing addressbook.war file
+
+
+Hints
+
+Ansible Playboook contents-
+==========================
+1) Clone the repo for address_book.war
+2) Install and configure tomcat
+3) Deploy address_book.war to tomcat server
+
+Jenkins Job contents:-
+======================
+1) Clone the repo of playbook
+2) run the ansible playbook with parameters as servername

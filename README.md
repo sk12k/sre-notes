@@ -1,4 +1,4 @@
-# sre-wiley-Aug-21
+# sre-wiley-Aug
 
 SRE Documents and References
 
